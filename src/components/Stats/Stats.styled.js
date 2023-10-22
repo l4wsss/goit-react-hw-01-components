@@ -2,10 +2,9 @@ import { styled } from "styled-components";
 
 export const StatisticsSection = styled.section `
   width: 500px;
-  /* height: 500px; */
   background-color: white;
   margin: 0 auto 200px auto;
-  padding-top: 50px;
+  padding-top: 30px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0px 2px 11px 3px rgba(0, 0, 0, 0.71);
@@ -21,16 +20,16 @@ export const StatisticsTitle = styled.h2 `
 `;
 
 export const StatisticsList = styled.ul `
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-content: center;
   /* border-radius: 0 0 10px 10px; */
 `;
 
 export const StatisticsItem = styled.li `   
-padding: 0;
-margin: 0;
+  padding: 0;
+  margin: 0;
   padding: 20px;
   background-color: ${props => props.color};
   width: 100%;

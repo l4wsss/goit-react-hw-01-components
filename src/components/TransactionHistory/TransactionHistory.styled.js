@@ -29,8 +29,9 @@ export const TransactionTr = styled.tr `
 
   td {
     color: grey;
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     padding: 10px 0;
+    line-height: 20px;
   }
 `;

@@ -2,10 +2,11 @@ import { styled } from "styled-components";
 
 export const ProfileContainer = styled.div`
   width: 400px;
-  height: 500px;
+  height: 400px;
   background-color: white;
   margin: 20px auto 200px auto;
   padding-top: 50px;
+  padding-bottom: 20px;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0px 2px 11px 3px rgba(0, 0, 0, 0.71);
